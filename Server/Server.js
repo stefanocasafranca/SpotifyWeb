@@ -11,7 +11,7 @@
       const spotifyApi = new SpotifyWebApi({
         redirectUri: 'http://localhost:3000',
            clientId: 'fb8fd9e5ef964a758c0585c41330f11a',
-            clientSecret: '???'
+            clientSecret: '177d4931bcd0416694c275a8a6be04dc'
       });
     
       // Additional logic to handle the login route: 3 Parameters needed

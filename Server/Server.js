@@ -15,7 +15,8 @@
       });
     
       // Additional logic to handle the login route: 3 Parameters needed
-      spotifyApi.authorizationCodeGrant (code) .then(data => {
+      spotifyApi.authorizationCodeGrant (code) 
+        .then(data => {
         res.json({
                 accessToken: data.body.access_token,
                 refreshToken: data.body.refresh_token,
